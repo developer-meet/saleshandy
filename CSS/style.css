@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1320px;
+    margin: auto;
+    height: auto;
+}
+
+:root{
+    --primary-color: #202020;
+    --black:black;
+    --sim-gray:#929292;
+    --sim-perpul:#A855F7;
+    --sim-green:#37B489;
+    --sim-pink:#F5B3C7;
+    --sim-blue:#6271FF;
+    --sim-dark-blue:#1D4ED8;
+    --sim-dark-gray:#3D3D3D;
+}
+
+/* Some Common CSS */
+
+/* Display related  CSS*/
+
+.d-flax{
+    display: flex;
+}
+
+.jus-con-center{
+    justify-content: center;
+}
+
+.jus-con-space-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+/* Text related CSS */
+
+.text-align-center{
+    text-align: center;
+}
+
+/* Padding and Margin related CSS */
+
+.p-0{
+    padding: 0;
+}
+
+.m-0{
+    margin: 0;
+}
+
+/* Color related CSS */
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+.black-color{
+    color: var(--black);
+}
+
+.sim-gray{
+    color: var(--sim-blue);
+}
+
+.sim-perpul{
+    color: var(--sim-perpul);
+}
+
+.sim-green{
+    color: var(--sim-green);
+}
+
+.sim-pink{
+    color: var(--sim-pink);
+}
+
+.sim-blue{
+    color: var(--sim-blue);
+}
+
+.sim-dark-blue{
+    color: var(--sim-dark-blue);
+}
+
+.sim-dark-gray{
+    color: var(--sim-dark-gray);
+}
