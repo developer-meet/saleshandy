@@ -75,7 +75,7 @@ body {
 }
 
 .sim-gray {
-    color: var(--sim-blue);
+    color: var(--sim-gray);
 }
 
 .sim-perpul {
@@ -107,7 +107,7 @@ body {
 
 .img-1 {
     background-image: url(/Assets/images/Img\ 1.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     max-width: 1320px;
     height: 550px;
@@ -135,7 +135,7 @@ body {
 .navbar div p {
     font-size: 16px;
     font-weight: 500;
-
+    color: var(--primary-color);
 }
 
 .navbar div img {
@@ -153,6 +153,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     margin-right: 15px;
+    color: var(--primary-color);
 }
 
 .header-trial-btn {
@@ -170,9 +171,10 @@ body {
 
     .img-1 {
         width: 100%;
+        height: auto;
         padding: 0;
         background-image: url(/Assets/images/Img\ 6.png);
-        background-size:cover;
+        background-size: cover;
     }
 
     .header-sec {
@@ -207,3 +209,178 @@ body {
     }
 }
 
+/* Second-Section */
+
+.sec-2 {
+    width: 50%;
+    margin-top: 30px;
+    padding-right: 60px;
+}
+
+.sec-2-slogan-sec .icon-2 {
+    height: 28px;
+    width: 28px;
+    border-radius: 5px;
+    background-color: var(--white);
+    margin-right: 10px;
+}
+
+.slogan-line {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sec-2-heading {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 55px;
+    margin: 10px 0 20px 0;
+}
+
+.sec-2-para {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.signup-box form {
+    position: relative;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.signup-box form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: #C6C6C6;
+}
+
+.sec-2-signup-btn {
+    width: 30%;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    background-color: var(--sim-dark-blue);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.icon-1 {
+    width: 25px;
+    height: 25px;
+    background-color: #FF492C;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.rating-line {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.sec-2-card-condition {
+    font-size: 14px;
+    font-weight: 400;
+    /* margin: 0 10px; */
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: var(--sim-gray);
+    padding-left: 10px;
+}
+
+@media screen and (max-width:1100px) {
+    .sec-2 {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        padding: 0 0 10px 0;
+    }
+
+    .sec-2 .sec-2-slogan-sec {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sec-2-heading {
+        text-align: center;
+    }
+
+    .sec-2-para {
+        text-align: center;
+    }
+
+    .signup-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .signup-box form {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sec-2-rating-box {
+        margin-top: 10px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .sec-2-slogan-sec {
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .sec-2-slogan-sec .icon-2 {
+        margin: auto;
+    }
+
+    .sec-2-rating-box {
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .icon-1 {
+        margin: auto;
+    }
+
+    .sec-2-card-condition {
+        border: none;
+    }
+
+    .signup-box form {
+        height: 100px;
+        position: static;
+    }
+
+    .signup-box form input {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-2-signup-btn {
+        margin-top: 10px;
+        width: 100%;
+        position: static;
+
+        /* bottom: 0; */
+    }
+
+    .star-icon,
+    .rating-line,
+    .sec-2-card-condition {
+        margin-top: 5px;
+    }
+}
