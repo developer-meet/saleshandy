@@ -1069,12 +1069,149 @@ body {
         font-size: 30px;
     }
 
-    .sec-7-options div{
+    .sec-7-options div {
         border-radius: 0;
         height: auto;
     }
 
-    .generate-leads-heading{
+    .generate-leads-heading {
         font-size: 20px;
+    }
+}
+
+/* Eighth Section */
+
+.sec-8 {
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 40px;
+    margin: auto;
+    background-color: black;
+}
+
+.sec-8-container-1 {
+    width: 50%;
+    height: auto;
+    background-color: #000000;
+    padding-right: 40px;
+}
+
+.s8-c1-main-heading {
+    margin-bottom: 40px;
+}
+
+.sec-8-meeting-1 {
+    border: 2px solid var(--sim-gray);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.sec-8-meeting-para {
+    margin: 7px 0 25px;
+    padding-right: 100px;
+}
+
+.meeting-content button {
+    background-color: #000000;
+    border: none;
+    border-bottom: 2px solid var(--sim-gray);
+}
+
+.sec-8-meeting-1 .meeting-img {
+    height: 150px;
+}
+
+.sec-8-meeting-1 .meeting-img img {
+    height: 150px;
+}
+
+.need-help-img {
+    padding-right: 20px;
+}
+
+.sec-8-container-2 {
+    width: 50%;
+    height: auto;
+    background-color: #000000;
+    padding-top: 10px;
+}
+
+.sec-8-container-2 button {
+    width: auto;
+    height: 50px;
+    background-color: var(--sim-dark-blue);
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 30px 0 40px;
+}
+
+.s8-c2-q1-container {
+    height: 80px;
+    background-color: #3c3c3c;
+    border-radius: 12px;
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width:1100px) {
+    .sec-8 {
+        display: block;
+        width: 100%;
+        padding: 100px 40px;
+    }
+
+    .sec-8-container-1 {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .s8-c1-main-heading{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .sec-8-container-2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .sec-8{
+        padding: 100px 0;
+    }
+
+    .sec-8-meeting-1{
+        width: 98%;
+        margin: 0 auto 30px;
+        display: block;
+        text-align: center;
+    }
+
+    .sec-8-meeting-heading{
+        font-size: 30px;
+    }
+
+    .sec-8-meeting-para{
+        padding: 0;
+    }
+
+    .meeting-content button{
+        margin-bottom: 10px;
+    }
+
+    .s8-c2-q1-container{
+        width: 98%;
+        margin: 0 auto 25px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .s8-c2-q1-container{
+        display: block;
+        height: auto;
     }
 }
