@@ -55,8 +55,16 @@ body {
     font-size: 56px;
 }
 
+.font-size-36px {
+    font-size: 36px;
+}
+
 .font-size-26px {
     font-size: 26px;
+}
+
+.font-size-24px {
+    font-size: 24px;
 }
 
 .font-size-14px {
@@ -857,24 +865,24 @@ body {
         margin: auto;
     }
 
-    .clients-container-heading{
+    .clients-container-heading {
         font-size: 40px;
     }
 
-    .s6-clients-container{
+    .s6-clients-container {
         width: 100%;
         height: auto;
         text-align: center;
         padding: 0;
     }
 
-    .sec-6 .s6-clients-container button{
+    .sec-6 .s6-clients-container button {
         width: 50%;
         margin: 50px auto 20px;
     }
 
 
-    .s6-jnu-container{
+    .s6-jnu-container {
         width: 99%;
         height: auto;
         padding: 0;
@@ -882,32 +890,191 @@ body {
         text-align: center;
     }
 
-    .jnu-container-img{
+    .jnu-container-img {
         margin-top: 10px;
     }
 
-    .jnu-container-box{
+    .jnu-container-box {
         width: 90%;
         margin: auto;
     }
 
     .jnu-container-item2 {
-       border: none;
+        border: none;
     }
 }
 
 @media screen and (max-width:450px) {
-    .sec-6 .s6-clients-container button{
+    .sec-6 .s6-clients-container button {
         width: 100%;
     }
 
-    .jnu-container-box{
+    .jnu-container-box {
         display: block;
         width: 90%;
         margin: auto;
     }
 
-    .jnu-container-item2{
+    .jnu-container-item2 {
         margin: 15px 0;
+    }
+}
+
+/* Seventh Section */
+
+.sec-7 {
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 40px;
+    margin: auto;
+    background-image: url(/Assets/images/Img\ 6.png);
+}
+
+.sec-7-options {
+    width: 70%;
+    height: 55px;
+    background-color: #F9F9F9;
+    border-radius: 50px;
+    margin: 50px auto 30px;
+    /* padding: 0 30px; */
+}
+
+.sec-7-options div {
+    height: 100%;
+    border-radius: 50px;
+    padding: 0 10px;
+}
+
+.sec-7-option-2 {
+    background-color: var(--sim-dark-blue);
+}
+
+.sec-7-options div img {
+    margin-right: 10px;
+}
+
+.sec-7-options div:hover {
+    background-color: var(--sim-dark-blue);
+    color: var(--white);
+}
+
+.sec-7-main-container {
+    width: 100%;
+    height: auto;
+    background-color: #F9F9F9;
+    border-radius: 26px;
+    padding: 40px;
+}
+
+.sec-7-generate-leads-container {
+    width: 50%;
+    height: auto;
+    padding-right: 40px;
+}
+
+.generate-leads-heading {
+    margin: 20px 0 20px;
+}
+
+.generate-leads-lines div {
+    margin-bottom: 15px;
+}
+
+.generate-leads-lines div img {
+    margin-right: 10px;
+}
+
+.sec-7-generate-leads-container button {
+    width: auto;
+    height: 50px;
+    background-color: var(--sim-dark-blue);
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.sec-7-img-container {
+    width: 50%;
+    height: auto;
+}
+
+.sec-7-main-img {
+    width: 100%;
+}
+
+.sec-7-main-img img {
+    width: 100%;
+    background-size: contain;
+}
+
+@media screen and (max-width:1190px) {
+    .sec-7-options {
+        display: block;
+        height: auto;
+        border-radius: 0px;
+    }
+
+    .sec-7-options div {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    .sec-7 {
+        width: 100%;
+        height: auto;
+        padding: 100px 0;
+    }
+
+    .sec-7-first-line {
+        font-size: 40px;
+    }
+
+    .sec-7-options {
+        display: block;
+        width: 98%;
+        height: auto;
+        border-radius: 0px;
+    }
+
+    .sec-7-main-container {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .sec-7-generate-leads-container {
+        width: 98%;
+        height: auto;
+        text-align: center;
+        padding: 0;
+        margin: auto;
+    }
+
+    .generate-leads-line1 {
+        justify-content: center;
+    }
+
+    .sec-7-img-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width:275px) {
+    .sec-7-first-line {
+        font-size: 30px;
+    }
+
+    .sec-7-options div{
+        border-radius: 0;
+        height: auto;
+    }
+
+    .generate-leads-heading{
+        font-size: 20px;
     }
 }
