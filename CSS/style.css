@@ -108,6 +108,22 @@ body {
     margin: 0;
 }
 
+.margin-bottom-30px {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-20px {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-15px {
+    margin-bottom: 15px;
+}
+
+.margin-bottom-10px {
+    margin-bottom: 10px;
+}
+
 
 /* Color related CSS */
 
@@ -1348,5 +1364,102 @@ body {
 
     .signup-sec-main-content form button {
         font-size: 16px;
+    }
+}
+
+/* Footer Section */
+
+.footer-sec {
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 40px 0;
+    margin: auto;
+    background-color: var(--black);
+}
+
+.footer-sec-container-1 div p {
+    margin-left: 15px;
+}
+
+.footer-sec-container-1 div .linkedin {
+    margin-right: 15px;
+}
+
+.footer-sec-container-1 div .twitter {
+    margin-right: 15px;
+}
+
+.footer-sec-container-1 div .youtube {
+    height: 22px;
+}
+
+.footer-sec-container-2 {
+    margin: 30px 0;
+    padding: 30px 0;
+    border-top: 2px solid var(--sim-gray);
+    border-bottom: 2px solid var(--sim-gray);
+}
+
+.footer-sec-c2-content-1 .heading-2-content .heading-2 {
+    width: 110px;
+    border-bottom: 2px solid var(--sim-gray);
+    padding-bottom: 2px;
+}
+
+.footer-sec-c2-content-4 div button {
+    background-color: var(--sim-dark-blue);
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    padding: 0 20px;
+}
+
+.footer-sec-container-3 p {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:1100px) {
+
+    .footer-sec {
+        padding: 100px 0px 0;
+    }
+
+    .footer-sec-container-1 {
+        width: 98%;
+        margin: 20px auto;
+    }
+
+    .footer-sec-container-2 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-sec-c2-content-1 .heading-2-content .heading-2 {
+        text-align: center;
+        margin: 0 auto 15px;
+    }
+
+    .footer-sec-container-2 .heading-2-img {
+        margin-bottom: 30px;
+    }
+
+    .footer-sec-c2-content-5 {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footer-sec-container-1 {
+        display: block;
+        width: 100%;
+    }
+
+    .footer-sec-container-1 div {
+        justify-content: center;
+    }
+
+    .footer-sec-container-1-logo {
+        margin-bottom: 15px;
     }
 }
