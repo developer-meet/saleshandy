@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -1167,7 +1168,7 @@ body {
         padding: 0;
     }
 
-    .s8-c1-main-heading{
+    .s8-c1-main-heading {
         text-align: center;
         font-size: 40px;
     }
@@ -1180,38 +1181,172 @@ body {
 }
 
 @media screen and (max-width:500px) {
-    .sec-8{
+    .sec-8 {
         padding: 100px 0;
     }
 
-    .sec-8-meeting-1{
+    .sec-8-meeting-1 {
         width: 98%;
         margin: 0 auto 30px;
         display: block;
         text-align: center;
     }
 
-    .sec-8-meeting-heading{
+    .sec-8-meeting-heading {
         font-size: 30px;
     }
 
-    .sec-8-meeting-para{
+    .sec-8-meeting-para {
         padding: 0;
     }
 
-    .meeting-content button{
+    .meeting-content button {
         margin-bottom: 10px;
     }
 
-    .s8-c2-q1-container{
+    .s8-c2-q1-container {
         width: 98%;
         margin: 0 auto 25px;
     }
 }
 
 @media screen and (max-width:410px) {
-    .s8-c2-q1-container{
+    .s8-c2-q1-container {
         display: block;
         height: auto;
+    }
+}
+
+/* Sign up Section */
+
+.signup-sec {
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 40px;
+    margin: auto;
+    background-color: var(--sim-dark-blue);
+}
+
+.signup-sec-main-heading {
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+.signup-sec-main-content {
+    margin-bottom: 30px;
+}
+
+.signup-sec-main-content form {
+    position: relative;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto 10px;
+}
+
+.signup-sec-main-content form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: #C6C6C6;
+}
+
+.signup-sec-main-content form button {
+    width: 30%;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    background-color: var(--black);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.signup-sec-card-condition {
+    font-size: 14px;
+    font-weight: 400;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: var(--white);
+    padding-left: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .signup-sec {
+        width: 100%;
+        padding: 100px 0px;
+    }
+
+    .signup-sec div {
+        width: 100%;
+        height: auto;
+    }
+
+    .signup-sec-main-heading {
+        font-size: 40px;
+        width: auto;
+    }
+
+    .signup-sec-main-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .signup-sec-main-content form {
+        width: 80%;
+        margin: auto;
+    }
+
+    .signup-sec-main-content form {
+        height: 100px;
+        position: static;
+    }
+
+    .signup-sec-main-content form input {
+        width: 100%;
+        text-align: center;
+    }
+
+    .signup-sec-main-content form button {
+        margin-top: 10px;
+        width: 100%;
+        position: static;
+    }
+
+    .signup-sec-rating-box {
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .signup-sec-rating-box .icon-1 {
+        width: 100%;
+        background-color: var(--sim-dark-blue);
+    }
+
+    .signup-sec-rating-box div {
+        margin-top: 10px;
+    }
+
+    .signup-sec-rating-box p {
+        margin-top: 10px;
+    }
+
+    .signup-sec-card-condition {
+        border: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .signup-sec-main-content form input {
+        font-size: 16px;
+    }
+
+    .signup-sec-main-content form button {
+        font-size: 16px;
     }
 }
